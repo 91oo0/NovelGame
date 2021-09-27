@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "site": "stg-hyd-novel",
+    "public": "*",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

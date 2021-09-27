@@ -7,7 +7,7 @@
 
 *start 
 ;音楽再生
-[playbgm storage=main.ogg]
+;[playbgm storage=main.ogg]
 
 [button x=135 y=410 graphic="title/button_start.png" enterimg="title/button_start2.png"  target="gamestart"]
 [button x=135 y=500 graphic="title/button_load.png" enterimg="title/button_load2.png" role="load" ]
@@ -19,7 +19,7 @@
 
 *gamestart
 ;音楽停止
-[stopbgm]
+;[stopbgm]
 ;一番最初のシナリオファイルへジャンプする
 @jump storage="scene1.ks"
 
